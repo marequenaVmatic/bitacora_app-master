@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="leftmenu">#ff696969</color>
+    <color name="bt_top_back_normal">#00ffffff</color>
+    <color name="bt_top_back_over">#3f000000</color>
+    <color name="clr_menu_line">#58504d</color>
+    <color name="clr_black">#000000</color>
+    <color name="clr_dashboard_back">#d0ebfe</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="clr_appback">#f5fcfe</color>
+    <color name="clr_blue">#00c7f2</color>
+    <color name="clr_green">#7fba00</color>
+    <color name="clr_blue1">#c7edfc</color>
+    <color name="clr_loginback">#1465c1</color>
+    <color name="clr_lightgraqy">#eeeeee</color>
+    <color name="clr_graqy">#000000</color>
+    <color name="clr_edit">#202020</color>
+    <color name="clr_orange">#e0a321</color>
+    <color name="clr_button_off">#edebe0</color>
+    <color name="clr_button_on">#b2d8ab</color>
+    <color name="clr_white">#ffffff</color>
+    <color name="clr_green_bright">#2be413</color>
+</resources>

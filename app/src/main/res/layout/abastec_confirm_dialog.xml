@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lnContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/space_10"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_5">
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/space_50"
+            android:layout_weight="0.35"
+            android:background="@color/clr_orange"
+            android:onClick="mOnClick"
+            android:text="No"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="@dimen/space_15" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/space_20"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/space_50"
+            android:layout_weight="0.35"
+            android:background="@color/clr_orange"
+            android:onClick="mOnClick"
+            android:text="Yes"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="@dimen/space_15" />
+    </LinearLayout>
+</LinearLayout>

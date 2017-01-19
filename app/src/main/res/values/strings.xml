@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Vendroid v3.0</string>
+    <string name="insert_error">Please insert all fields!</string>
+    <string name="str_userid">USERID</string>
+    <string name="str_pwd">PASSWORD</string>
+    <string name="userid">USERID :</string>
+    <string name="pwd">PASSWORD :</string>
+    <string name="str_h">H</string>
+    <string name="add">Add Product</string>
+
+    <string name="discovery">Buscar Itag</string>
+    <string name="pairing">Sincronizando</string>
+    <string name="collecting">Recolectando datos </string>
+    <string name="capture_type">Tipo de captura</string>
+    <string name="capture_success">Capture Exitosa</string>
+    <string name="capture_error">Error en captura. Intete de nuevo</string>
+    <string name="confirm_completed">Usted marcará esta tarea\ncomo completada</string>
+    <string name="confirm_completed_hint">Por favor escribir un comentario</string>
+    <string name="loading_3hours">Carga inicio jornada\nde trabajo&#8230;</string>
+    <string name="loading">Cargando&#8230;</string>
+</resources>

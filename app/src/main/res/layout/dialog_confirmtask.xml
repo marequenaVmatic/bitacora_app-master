@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_20"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lnAbastec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:gravity="center"
+                        android:text="Productos Abastecidos"
+                        android:textColor="@color/clr_graqy"
+                        android:textSize="@dimen/space_20" />
+
+                    <TextView
+                        android:id="@+id/txtAbastec"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:text="80"
+                        android:textSize="@dimen/space_20" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnRecaudado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:gravity="center"
+                        android:text="Recaudado"
+                        android:textColor="@color/clr_graqy"
+                        android:textSize="@dimen/space_20" />
+
+                    <TextView
+                        android:id="@+id/txtRecaudado"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:text="Si"
+                        android:textSize="@dimen/space_20" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnContadores"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:gravity="center"
+                        android:text="Contadores"
+                        android:textColor="@color/clr_graqy"
+                        android:textSize="@dimen/space_20" />
+
+                    <TextView
+                        android:id="@+id/txtContadores"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:text="80"
+                        android:textSize="@dimen/space_20" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnCaptura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:gravity="center"
+                        android:text="Captura"
+                        android:textColor="@color/clr_graqy"
+                        android:textSize="@dimen/space_20" />
+
+                    <TextView
+                        android:id="@+id/txtCaptura"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:text="80"
+                        android:textSize="@dimen/space_20" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnCapTar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:gravity="center"
+                        android:text="Captura tarjetero"
+                        android:textColor="@color/clr_graqy"
+                        android:textSize="@dimen/space_20" />
+
+                    <TextView
+                        android:id="@+id/txtCapTar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="center"
+                        android:text="80"
+                        android:textSize="@dimen/space_20" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_10"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:text="NO" />
+
+                <Button
+                    android:id="@+id/btnOK"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:text="YES" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

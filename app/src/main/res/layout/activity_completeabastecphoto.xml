@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clr_appback"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/clr_button_off"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRutaAbast"
+                style="@style/FontGray15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:layout_marginBottom="@dimen/space_10"
+                android:text="LIST OF IMAGES"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_3"
+        android:layout_weight="100"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/clr_appback"
+        android:dividerHeight="@dimen/space_5"
+        android:layout_gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:stretchMode="spacingWidthUniform" />
+
+    <RelativeLayout
+        android:id="@+id/RnButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="15"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/space_15"
+            android:layout_marginRight="@dimen/space_15"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_10">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:background="@color/clr_orange"
+                android:onClick="mOnClick"
+                android:text="VOLVER"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="@dimen/space_15" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

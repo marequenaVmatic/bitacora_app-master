@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.shevchenko.staffapp.SignatureView
+            android:id="@+id/signature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.shevchenko.staffapp.SignatureView>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/clr_orange"
+            android:onClick="mOnClick"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/space_15"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Save" />
+
+    </RelativeLayout>
+</LinearLayout>

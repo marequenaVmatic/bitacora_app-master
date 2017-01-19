@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clr_white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnMenuLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/clr_green_bright"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_normal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imgMenuPhoto"
+                            android:layout_width="@dimen/space_50"
+                            android:layout_height="@dimen/space_50"
+                            android:layout_gravity="center"
+                            android:src="@drawable/member_photo" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtMenuUserName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/space_10"
+                            android:layout_marginTop="@dimen/space_15"
+                            android:text="User Name"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/space_15"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_line"
+                android:background="@color/clr_menu_line"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lnMenuSincronize"
+                    style="@style/LeftMenuItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:background="@drawable/planet" />
+
+                    <TextView
+                        style="@style/LeftMenuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sincronizar"
+                        android:textColor="@color/clr_graqy" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_line"
+                    android:background="@color/clr_menu_line"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnMenuDayly"
+                    style="@style/LeftMenuItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:background="@drawable/ic_down" />
+
+                    <TextView
+                        android:id="@+id/txtMenuSetting"
+                        style="@style/LeftMenuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cierre Diario"
+                        android:textColor="@color/clr_graqy" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_line"
+                    android:background="@color/clr_menu_line"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnMenuMaps"
+                    style="@style/LeftMenuItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:background="@drawable/ic_earth" />
+
+                    <TextView
+                        android:id="@+id/txtMenuAddFood"
+                        style="@style/LeftMenuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mapas"
+                        android:textColor="@color/clr_graqy" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_line"
+                    android:background="@color/clr_menu_line"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnMenuReport"
+                    style="@style/LeftMenuItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:background="@drawable/ic_report" />
+
+                    <TextView
+                        android:id="@+id/txtMenuSummary"
+                        style="@style/LeftMenuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reporte"
+                        android:textColor="@color/clr_graqy" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_line"
+                    android:background="@color/clr_menu_line"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnMenuLogout"
+                    style="@style/LeftMenuItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:background="@drawable/ic_menu_logout" />
+
+                    <TextView
+                        style="@style/LeftMenuText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salir"
+                        android:textColor="@color/clr_graqy" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_line"
+                    android:background="@color/clr_menu_line"></LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
